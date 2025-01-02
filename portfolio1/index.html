@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Karun Dhandapni</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+           <a href="#home" class="active">Home</a>
+           <a href="#about">About</a>
+           <a href="#education">Education</a>
+           <a href="#skills">Skills</a>
+           <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+     <section class="home" id="home"> 
+        <div class="home-content">
+            <h1>HI, I'm <span>Kaurn Dhandapani</span></h1>
+            <div class="text-animate">
+                <h3>Python web developer(Entery level)</h3>
+            </div>
+            <p>Detail- oriented and enthusiastic entry-level software developer eager to apply programming skills in a collaborative 
+                environment. Proficient in languages such as Python. Committed to continuous learning and growth in software development. 
+                Seeking to contribute to innovative projects and enhance technical expertise.</p>
+                 <div class="btn-box">
+                    <button class="butt"><a href="#" class="btn">Hire Me</a></button>
+                    <button class="butt"><a href="karundhandapani@gmail.com" class="btn">Let's Talk</a></button>
+                 </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/karun-dhandapani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAPFJREFUSEvtltENgkAQRB+daCdaiVqJWolaiVqJliJDbsnmFLN4CDFxPy8wk517u1AxQlUjeDCJyRrYDtDdBdiYTt7JDZgNYCKJJSCzp7hyk3uBacjEHloA5w+6C5lYlIpPHfatkMm+Vt0BB0BA9K2QSV/R/PmQSYtg6kaknJLSqqbnmugRHLo3oe/JDJnkd3J07EtM4r7yuys2kbhE1YHMrUShzsJz8q4Tj7ViNSMPSXEnos7Wj4/xb9JcsCbex/JbcRkxhqrmolndCVMbvK7zEF1fWyt+mEpN5rYV8i+jIhjiy6gI27UzyY9EaUQv338A3ZBfGr41vEMAAAAASUVORK5CYII="/></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=1xqpqjml5gtdq&utm_content=4skja4s "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAZFJREFUSEvFlr8uRFEQxn/7Al4BnU6v8OcNxAug0el1qEQvERUKlYdApdEoVTQiClFolO53MyNnz55Z91zJ7iQ3u3szc775Zr6ZswMmYIMJYDB1kFVAz4qxnQtYvwB67hr/W/s+5FpiosPODaC2mgK7bIIO0sASyE1PAD9XQNvGqn2Xg2wZi1oGh8Am4CVV2db8kBxENPf/QFCmaX/8QL17tlj5zEcg6oXY5FaqtfdOn2IigaSxYqIERsoV9UMBD8B6U85Z4BN4BF6NeSmxEER0c6mqidfAEbCbULy33x8NCyWXx1WBqLZLwFWhjJKriyVnUwUicewZkxznC5ixucgF0xnEVbIDnBWYPAELJvt/MVFG38AxsJwAvZuqTq0nWkGpVanL2SxaozeAN+AEEEA0wFUgyu7CshZgauM2hATT+ucTHw2jfBWg4dK2lVzTNVJaEr9n91krXfdaCKIMS4PV9WD30wCrxK2VVr1UIqC+NrSBIxC973NxFS+scSApCwFGV6/7tds2sqn/kejbk5G4H2bSVxrfgc0MAAAAAElFTkSuQmCC"/></a>
+            <a href="https://github.com/settings/admin"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAXxJREFUSEu9lcFVxDAMRLWVAJUAlQCVAJWwVMJSCXQC+/M8ebIiJ8olviRxZM+MNJZPdsA4HYBhVZDnRubezB7M7NfMvq/vl/bO93BsgbDhh5ndbig+m9l7A1yEroF8NdbVjKLmpanr1oxA9gL4TVH05icyEAJeWxBpIFWkbW0QR4zSeudTF0EIRIWG/jOvgqvIAhZraieDYIjHuIm+/wLdLWP4cJ8B5qkPCjsLI/XHrYIxsqsDFajRAACgDmTIpIrSSKouM0mfjgiyJ1Xi4evC3GQAv1G0beeQoppIlOJfPEhkMQUUN1dYJLoJMrtjB1DqTq8kumPOaREkpiotPK5ALk8C9Ez7UQCOqeb33F6ig8RGHZX2IjDqM/m+DU8qiu3OWGZTDiQb4C5S+NS+MyOMGmnXJDMQ3SGwY+O1CylLU9e34on3kj3Q57Vd3AwupQiyAFgD4R9A1ETdNjucHmRxj4h1pXUAQl180bVebb67pKILKiDFYzIOOwTkH0uUVRqH2tFWAAAAAElFTkSuQmCC"/></a>
+        </div>
+        <div class="card">
+            <div class="image-box">
+        <img src="C:\Users\KARUN\Desktop\web2\portfolio1\imgkarun1.jpg" alt="" width="450px"></div>
+        <div class="contents">
+            <p>Have a wonderfull day</p>
+        </div>
+     </section>
+
+    <!-- About section design -->
+     <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="C:\Users\KARUN\Desktop\web2\portfolio1\imgkarun1.jpg" alt="" width="200px">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Python web developer!</h3>
+            <p>A passionate and highly motivated Software Developer seeking to leverage strong technical skills and a solid understanding of algorithms, data structures, and software engineering principles to build innovative, scalable, and efficient software solutions. Eager to contribute to a dynamic team in a growth-driven environment, where I can apply my expertise in programming languages, problem-solving, and development frameworks to create high-quality applications. Committed to continuous learning, optimizing performance, and delivering exceptional user experiences in fast-paced software development settings.</p>
+
+                <button class="butt"><a href="#" class="btn" style="color: white;">Read more</a></button>
+                
+        </div>
+     </section>
+     <!-- Education section starts -->
+     <section class="education" id="education">
+
+        <h2 class="heading">My <span>Journey</span></h2>
+          
+        <div class="education-rox">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                              </svg>   2019 - 2023</div>
+                            <h3>UG Degree - Anna University</h3>
+                            <p>Nehru Institue of Engineering and Technology(ECE)</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                              </svg>   2017 - 2019</div>
+                            <h3>12th - State Board</h3>
+                            <p>Sree Rangammal Kalvinilayam</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                              </svg>   2015 - 2017</div>
+                            <h3>10th - State Board</h3>
+                            <p>Government Higher Secondary School Pichanur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </section>
+       
+     <!-- skill section design -->
+      <section class="skills" id="skills">
+          <h2 class="heading">My <span>Skills</span></h2>
+          <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JAVASCRIPT <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>PYTHON <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills-column">
+                <h3 class="title">Profestional Skills</h3>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>MySql <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Git <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Github <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+      </section>
+
+      <!-- Contect section design -->
+      <section class="contact" id="contact">
+       <h2 class="heading">Contact <span>Me!</span></h2>
+       <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="textarea-field">
+            <textarea name="" id="" class="30" rows="10" placeholder="Your Message"></textarea>
+            <span class="focus"></span>
+        </div>
+        <div class="btn-box btns">
+            <button type="submit" class="butt" style="color: white;">Submit</button>
+        </div>
+       </form>
+      </section>
+
+      <!-- footer design -->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>© 2024 by Karun,Created with bootstrap</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+              </svg></a>
+        </div>
+       </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
